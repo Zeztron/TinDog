@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -69,6 +69,7 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* ========================================================================== */
@@ -77,6 +78,8 @@ p {
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -140,4 +143,23 @@ p {
     padding: 3% 2%;
 }
 
+.btn-signup {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.btn-signup:hover {
+    background-color: #f71c3d;
+}
+
+.btn-free {
+    border-color: #ff4c68;
+    color: #ff4c68;
+}
+
+.btn-free:hover {
+    background-color: #ff4c68;
+    color: white;
+    transition: all .3s;
+}
 
