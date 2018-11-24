@@ -17,6 +17,14 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -44,13 +52,6 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
-/* Fontawesome Icons  */
-.features-icons {
-    font-size: 3.5rem;
-    color: #ef8173;
-    padding-bottom: 1rem;
-}
-
 /* Title Image */
 
 .title-image {
@@ -61,14 +62,19 @@ h1 {
 /* Features Section */
 
 #features {
-    padding-top: 6.5rem;
+    padding: 7% 15%;
 }
 
-
-h3 {
-    font-weight: 700;
+.feature-box {
+    padding: 5%;
 }
 
-p {
-    color: #8f8f8f;
+.features-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+    transition: all .2s;
 }
